@@ -1,0 +1,83 @@
+# Unique identifier for the emoji associated with the game
+emojiID: ""
+
+# Name of the emoji
+emojiName: ""
+
+# Full name of the game
+gameName: ""
+
+# Channel ID where applications are received
+applicationChannel: ""
+
+# Channel ID where welcome messages are sent
+welcomeChannel: ""
+
+# List of role IDs assigned to users upon being accepted
+roles: []
+
+# List of questions asked during the application process
+questions: # Each sublist represents a group of questions.
+# - description: "your age" # keep these questions commented. They are always asked by default.
+#   label: "Your age:"
+#   min: 1
+#   max: 2
+#   style: 1
+#   placeholder: "xx"
+# - description: "your in game name"
+#   label: "Your in game name:"
+#   min: 1
+#   max: 100
+#   style: 1
+#   placeholder: ""
+  - # Description of the question
+    description: ""
+    # Label for the question
+    label: ""
+    # Minimum length of the answer
+    min: 0
+    # Maximum length of the answer
+    max: 0
+    # Style of the input field (e.g., 1 for short answer, 2 for long answer)
+    style: 0
+    # Placeholder text for the input field
+    placeholder: ""
+
+# List of selectable options for dropdown menus in the application
+selectOptions:
+  - # Placeholder text for the dropdown
+    placeholder: ""
+    # Minimum number of options to select, keep at 0 for 1
+    min: 0
+    # Maximum number of options to select
+    max: 0
+    # List of available options in the dropdown
+    options:
+      - # Label for the option
+        label: ""
+        # Description of the option
+        description: ""
+        # Value of the option
+        value: ""
+
+# Assignable roles based on user selections
+assignableRoles: []
+
+# Image requirements for the application, remove if not needed
+image:
+  # Description of what the image should be
+  what: ""
+  # Label for the image upload field
+  label: ""
+
+# Whether the application is auto accepted
+auto: false
+
+# Short name or abbreviation for the game
+short: ""
+
+# Tag associated with the game 【-AL GAME-】
+tag: ""
+
+# Welcome message sent to new users
+welcomeMessage: ""
